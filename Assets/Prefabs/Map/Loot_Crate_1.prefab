@@ -23,9 +23,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24022218790381660}
-  m_LocalRotation: {x: -1, y: -0, z: -0, w: 0.00021140274}
+  m_LocalRotation: {x: -1, y: 0, z: 0, w: 0.00020963029}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4898179, y: 1.4898179, z: 1.4898179}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 804458117469277836}
@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 804458117469277836}
   - component: {fileID: 8804150348798111553}
   - component: {fileID: 2245581273792451821}
+  - component: {fileID: 803365092}
   m_Layer: 0
   m_Name: Cube.689_Texture_Atlas1_0
   m_TagString: Untagged
@@ -115,3 +116,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &803365092
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5997589924321627702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7229342, y: 0.43445292, z: 1.1994022}
+  m_Center: {x: -3.9153188e-17, y: -0.0028433206, z: 0}
